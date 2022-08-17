@@ -1,4 +1,4 @@
-﻿namespace JJ_Code.API.Models.Domain
+﻿namespace JJ_Code.API.Models.DTO
 {
     public class Region
     {
@@ -11,7 +11,5 @@
         public long Population { get; set; }
 
 
-        //Navigation Properties
-        public IEnumerable<Walk> Walks { get; set; }
     }
 }
